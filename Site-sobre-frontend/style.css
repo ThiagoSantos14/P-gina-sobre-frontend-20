@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(to bottom, #ff6600 20%, #1f8bff 40%, yellow 90%);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    
+}
+
+details {
+    border: outset 5px black;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.fundo {
+    background: white;
+    padding: 30px;
+    margin-bottom: 50px;
+    border: outset 5px black;
+    border-radius: 10px;
+}
+
+.html {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.fundo:hover .html {
+    white-space: normal;
+    transition: 0.9s;
+    transform: scale(1.0);
+    background: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.css {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.fundo:hover .css {
+    white-space: normal;
+    transition: 0.9s;
+    transform: scale(1.0);
+    background: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.javascript {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.fundo:hover .javascript {
+    white-space: normal;
+    transform: scale(1.0);
+    transition: 0.9s;
+    background: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}    
+
+footer {
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 35%;
+}
+
+footer:hover {
+    opacity: 0.5;
+    font-size: 20px;
+    border: outset 5px black;
+    border-radius: 10px;
+    background: white;
+}
+
+
